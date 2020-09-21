@@ -1,0 +1,94 @@
+html body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.main-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.set{
+    background-color: rgb(231, 225, 225);
+}
+
+.head-line{
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact{
+    padding-top: 8px;
+    width: 300px;
+    font-size: 17px;
+    height: 30px;
+    margin: 6px;
+}
+
+#pw{
+    padding-top: 8px;
+    width: 300px;
+    font-size: 17px;
+    height: 30px;
+    margin: 6px;
+}
+
+.login-button{
+    margin: 10px;
+    width: 305px;
+    font-size: 20px;
+    height: 40px;
+    color: rgb(243, 243, 247);
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.or{
+    padding-left: 70px;
+  
+}
+#log{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding-left: 50px;
+}
+.fab{
+     font-size: 30px;
+     color: blue;
+     padding-top: 5px;
+}
+#fb{
+    color: blue;
+    margin-left: 15px;
+   margin-top: 10px;
+}
+.forgot-pw{
+    color: blue;
+     padding-bottom: 15px;
+    padding-left: 100px;
+}
+.set-one{
+    color: grey;
+    background-color: rgb(231, 225, 225);
+}
+.set-link{
+  text-align: center;
+}
+#get {
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.set-two{
+    background-color: rgb(231, 225, 225);
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background: burlywood;
+    }
+}
